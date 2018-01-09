@@ -1,0 +1,28 @@
+{
+  "name": "done",
+  "version": "0.0.1",
+  "description": "None of your dawn business",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync --server -f 'index.html' -f 'css/*.css' ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bastienvinh/start-css-none.git"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "author": "Bastien VINH <bus.bvinh@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bastienvinh/start-css-none/issues"
+  },
+  "homepage": "https://github.com/bastienvinh/start-css-none#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.23.3"
+  }
+}
